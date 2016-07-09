@@ -17,6 +17,7 @@ class plugins(implicit context: Context){
   )
   final lazy val essentials = plugin( "essentials" )
   final lazy val googleJavaFormat = plugin( "google-java-format" )
+  final lazy val ideaPlugin = plugin( "idea_plugin" )
   final lazy val proguard = plugin( "proguard" )
   final lazy val sbtLayout = plugin( "sbt_layout" )
   final lazy val scalafmt = plugin( "scalafmt" )
